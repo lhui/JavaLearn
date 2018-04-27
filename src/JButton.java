@@ -7,16 +7,15 @@
 */
 import java.awt.*;
 import javax.swing.*;
-import java.awt.event.*;
-import java.awt.FlowLayout;;
-class Btn extends JFrame{
-	 JButton btn =new JButton();
-	 Btn() {
+import java.awt.event.*;;
+class Btn extends Frame{
+	 Button btn =new Button("I am a button");
+	    Btn() {
 		
 		// TODO Auto-generated constructor stub
 		setSize(300,200);
 		setVisible(true);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	
 		setLayout(new FlowLayout());
 		add(btn);
 		validate();//设置窗体组建可见
