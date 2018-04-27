@@ -14,7 +14,7 @@ public class login extends Frame {
 		this.setBackground(Color.lightGray);
 		this.setLayout(new FlowLayout());
 		//add some label and button and textField
-		this.add(new Label("userid"));
+		this.add(new Label("userid"));//add login id 
 		this.add(new TextField("user1",10));
 		this.add(new Label("password"));
 		this.add(new TextField(10));
