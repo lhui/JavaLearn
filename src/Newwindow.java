@@ -10,7 +10,7 @@ public class Newwindow {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		JFrame win =new JFrame("最简单的窗体文件");
+		JFrame win =new JFrame("杩欐槸涓�涓畝鍗曠殑绐楀彛");
 		win.setSize(300, 200);
 		win.setVisible(true);
 		win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
